@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yashitaa Arya — Software Engineer</title>
+<meta name="description" content="Yashitaa Arya — Software Engineer. CSE, NIT Hamirpur. Robotics, backend systems, and algorithmic problem solving." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<canvas id="constellation" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">YA<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="resume.pdf" class="btn btn-ghost nav-resume" download>Resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Software Engineer · CSE, NIT Hamirpur '26</p>
+      <h1 class="hero-title">Yashitaa Arya</h1>
+      <p class="hero-tag">I build systems that map, learn, and navigate —<br class="br-desktop"> from SLAM-driven robots to full-stack platforms.</p>
+      <p class="hero-desc">GATE CS/IT 2026 qualified engineer with a foundation in data structures, operating systems, and distributed systems — shaped by robotics competitions, 450+ solved algorithmic problems, and shipped projects spanning Django backends to React front ends.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+      </div>
+      <p class="hero-status"><span class="status-dot"></span> Currently exploring Software Engineering opportunities</p>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- GITHUB ACTIVITY -->
+  <section class="section section-tight" id="activity">
+    <div class="section-inner">
+      <p class="eyebrow">GitHub Activity</p>
+      <div class="activity-row">
+        <div class="activity-stat">
+          <p class="stat-number small-stat">23</p>
+          <p class="stat-label">public repositories</p>
+        </div>
+        <div class="activity-stat">
+          <p class="stat-number small-stat">198+</p>
+          <p class="stat-label">public commits</p>
+        </div>
+        <div class="activity-stat">
+          <p class="stat-number small-stat">13</p>
+          <p class="stat-label">repositories contributed to</p>
+        </div>
+        <a href="https://github.com/YashitaaArya" target="_blank" rel="noopener" class="btn btn-ghost activity-cta">View GitHub ↗</a>
+      </div>
+      <div class="activity-snake">
+        <img src="https://raw.githubusercontent.com/YashitaaArya/YashitaaArya/output/pastel-snake.svg" alt="Animated GitHub contribution graph" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div>
+        <p class="eyebrow">01 — About</p>
+        <h2 class="section-title">Curious by default, thorough by habit.</h2>
+        <p class="body-text">
+          I'm a Computer Science and Engineering student at NIT Hamirpur, graduating in 2026. My path hasn't been about specializing early — it's been shaped by competitive programming, robotics, desktop tooling, and machine learning, each teaching me a different way to reason about systems.
+        </p>
+        <p class="body-text">
+          Whether it's visualizing how a compiler works, teaching a robot to map an unseen room, or tracing a bug through a codebase at 2am, I care about understanding things from first principles rather than treating them as black boxes. I'm currently looking for a Software Engineering role where I can bring that curiosity to a real product team.
+        </p>
+      </div>
+      <aside class="fact-card">
+        <div class="fact-row"><span>Based in</span><strong>India</strong></div>
+        <div class="fact-row"><span>Focus</span><strong>Backend &amp; Full-Stack</strong></div>
+        <div class="fact-row"><span>Graduating</span><strong>2026</strong></div>
+        <div class="fact-row"><span>GATE CS/IT</span><strong>Qualified</strong></div>
+        <div class="fact-row"><span>Problems solved</span><strong>450+</strong></div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- TECH STACK -->
+  <section class="section" id="stack">
+    <div class="section-inner">
+      <p class="eyebrow">02 — Toolkit</p>
+      <h2 class="section-title">What I build with.</h2>
+
+      <div class="stack-grid">
+        <div class="stack-group">
+          <h3 class="stack-label lilac">Languages</h3>
+          <div class="pill-row">
+            <span class="pill pill-lilac">C++</span>
+            <span class="pill pill-lilac">Python</span>
+            <span class="pill pill-lilac">SQL</span>
+            <span class="pill pill-lilac">HTML</span>
+            <span class="pill pill-lilac">CSS</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h3 class="stack-label rose">CS Fundamentals</h3>
+          <div class="pill-row">
+            <span class="pill pill-rose">Data Structures &amp; Algorithms</span>
+            <span class="pill pill-rose">OOP</span>
+            <span class="pill pill-rose">Operating Systems</span>
+            <span class="pill pill-rose">DBMS</span>
+            <span class="pill pill-rose">Computer Networks</span>
+            <span class="pill pill-rose">Compiler Design</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h3 class="stack-label mint">Libraries &amp; Frameworks</h3>
+          <div class="pill-row">
+            <span class="pill pill-mint">NumPy</span>
+            <span class="pill pill-mint">Pandas</span>
+            <span class="pill pill-mint">Matplotlib</span>
+            <span class="pill pill-mint">NLTK</span>
+            <span class="pill pill-mint">spaCy</span>
+            <span class="pill pill-mint">OpenCV</span>
+            <span class="pill pill-mint">Tkinter</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h3 class="stack-label lilac">Developer Tools</h3>
+          <div class="pill-row">
+            <span class="pill pill-lilac">Git &amp; GitHub</span>
+            <span class="pill pill-lilac">Linux</span>
+            <span class="pill pill-lilac">ROS</span>
+            <span class="pill pill-lilac">Gazebo</span>
+            <span class="pill pill-lilac">RViz</span>
+            <span class="pill pill-lilac">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow">03 — Experience</p>
+      <h2 class="section-title">Where I've worked and led.</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-role">Coordinator &amp; PR Head</p>
+            <p class="timeline-org">Robotics Society, NIT Hamirpur</p>
+            <p class="body-text small">
+              Organized RoboQuest workshops attended by hundreds of students, mentored beginners through Arduino-based robotics projects, and managed technical outreach across the ROS ecosystem and event coordination.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-role">Contributor</p>
+            <p class="timeline-org">Social Winter of Code</p>
+            <p class="body-text small">
+              Selected as a contributor, working on open-source issues and collaborating with maintainers outside a classroom setting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">04 — Featured Projects</p>
+      <h2 class="section-title">Things I've built end to end.</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-shot" data-label="Add screenshot: talentflow-dashboard.png">
+            <img src="images/talentflow-dashboard.png" alt="TalentFlow dashboard screenshot" loading="lazy" onerror="this.parentElement.classList.add('shot-missing')">
+          </div>
+          <p class="project-name">TalentFlow — Mini Hiring Platform</p>
+          <p class="body-text small">
+            A front-end React app simulating an ATS for HR teams — Jobs, Candidates, and Assessments. Virtualized list handling 1,000+ seeded candidates, drag-and-drop Kanban with optimistic updates, a job-specific assessment builder with conditional questions, and a simulated REST API (MSW) with injected latency and error rates, persisted locally via IndexedDB.
+          </p>
+          <div class="pill-row small">
+            <span class="pill pill-outline">React</span>
+            <span class="pill pill-outline">Redux Toolkit</span>
+            <span class="pill pill-outline">React Query</span>
+            <span class="pill pill-outline">Dexie.js</span>
+            <span class="pill pill-outline">Tailwind</span>
+          </div>
+          <div class="project-links">
+            <a href="https://talentflow-a-mini-hiring-platform-virid.vercel.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/YashitaaArya/TALENTFLOW-A-MINI-HIRING-PLATFORM" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot" data-label="Add screenshot: rbac-admin-panel.png">
+            <img src="images/rbac-admin-panel.png" alt="Dynamic RBAC Platform admin panel screenshot" loading="lazy" onerror="this.parentElement.classList.add('shot-missing')">
+          </div>
+          <p class="project-name">Dynamic RBAC Platform</p>
+          <p class="body-text small">
+            A Django-based multi-tenant Role-Based Access Control system with feature-level permissions, organization-scoped data isolation, and full audit logging. Enforces permission checks at both the view layer and the UI, with REST endpoints for roles, features, and audit trails.
+          </p>
+          <div class="pill-row small">
+            <span class="pill pill-outline">Django 5</span>
+            <span class="pill pill-outline">DRF</span>
+            <span class="pill pill-outline">PostgreSQL</span>
+            <span class="pill pill-outline">Bootstrap 5</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/YashitaaArya/Dynamic-RBAC-Platform" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot" data-label="Add screenshot: mantis-rviz.png">
+            <img src="images/mantis-rviz.png" alt="M.A.N.T.I.S. RViz mapping screenshot" loading="lazy" onerror="this.parentElement.classList.add('shot-missing')">
+          </div>
+          <p class="project-name">M.A.N.T.I.S. — SLAM Robot</p>
+          <p class="body-text small">
+            An autonomous robot performing Simultaneous Localization and Mapping using 2D LiDAR, Hector Mapping, and encoder-based odometry, simulated and visualized end to end in Gazebo and RViz.
+          </p>
+          <div class="pill-row small">
+            <span class="pill pill-outline">ROS</span>
+            <span class="pill pill-outline">Gazebo</span>
+            <span class="pill pill-outline">RViz</span>
+            <span class="pill pill-outline">LiDAR</span>
+          </div>
+          <p class="project-note">1st Runner-Up — NIT Hamirpur Open Exhibition</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot" data-label="Add screenshot: intellicardiac-prediction-ui.png">
+            <img src="images/intellicardiac-prediction-ui.png" alt="IntelliCardiac prediction dashboard screenshot" loading="lazy" onerror="this.parentElement.classList.add('shot-missing')">
+          </div>
+          <p class="project-name">IntelliCardiac — CVD Risk &amp; Diagnostics Portal</p>
+          <p class="body-text small">
+            A clinical diagnostic portal with two modules: TabPFN-based 10-year cardiovascular risk scoring from patient vitals, and a 2D U-Net + XGBoost radiomics pipeline that segments cardiac MRI and classifies 5 pathology types. Built with a faculty-guided team.
+          </p>
+          <div class="pill-row small">
+            <span class="pill pill-outline">Flask</span>
+            <span class="pill pill-outline">TabPFN</span>
+            <span class="pill pill-outline">U-Net</span>
+            <span class="pill pill-outline">XGBoost</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/YashitaaArya/cipm_cvd" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="more-projects">
+        Also on GitHub: a real-time <a href="https://github.com/YashitaaArya/Facial-Emotion-Detection" target="_blank" rel="noopener">YOLOv8 facial emotion detector</a> (94% mAP@0.5), a suite of DSA visualizers — <a href="https://github.com/YashitaaArya/Stack-Visualizer" target="_blank" rel="noopener">Stack</a>, <a href="https://github.com/YashitaaArya/Queue-Visualizer" target="_blank" rel="noopener">Queue</a>, and <a href="https://github.com/YashitaaArya/Sortify-Visual-Sorting-Algorithm-Explorer" target="_blank" rel="noopener">Sorting</a> — and a <a href="https://github.com/YashitaaArya/Text-Summariser-UI" target="_blank" rel="noopener">text summarizer</a> built with NLTK.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- CODING JOURNEY -->
+  <section class="section" id="journey">
+    <div class="section-inner">
+      <p class="eyebrow">05 — Coding Journey</p>
+      <h2 class="section-title">Problem solving, as a practice.</h2>
+      <div class="journey-row">
+        <div class="journey-stat">
+          <p class="stat-number">450+</p>
+          <p class="stat-label">DSA, SQL &amp; Pandas problems solved</p>
+          <a href="https://codolio.com/profile/yashitaaarya" target="_blank" rel="noopener" class="stat-link">View live on Codolio ↗</a>
+        </div>
+        <div class="journey-patterns">
+          <p class="body-text small" style="margin-bottom: 14px;">Patterns I reach for most:</p>
+          <div class="pill-row">
+            <span class="pill pill-mono">BFS</span>
+            <span class="pill pill-mono">DFS</span>
+            <span class="pill pill-mono">Graphs</span>
+            <span class="pill pill-mono">Trees</span>
+            <span class="pill pill-mono">Dynamic Programming</span>
+            <span class="pill pill-mono">Sliding Window</span>
+            <span class="pill pill-mono">Binary Search</span>
+            <span class="pill pill-mono">Greedy</span>
+            <span class="pill pill-mono">Hash Maps</span>
+            <span class="pill pill-mono">Two Pointers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    <div class="section-inner">
+      <p class="eyebrow">06 — Achievements</p>
+      <h2 class="section-title">Recognition along the way.</h2>
+      <div class="achieve-grid">
+        <div class="achieve-item">
+          <p class="achieve-title">GATE CS/IT 2026</p>
+          <p class="body-text small">Qualified</p>
+        </div>
+        <div class="achieve-item">
+          <p class="achieve-title">e-Yantra Robotics Competition</p>
+          <p class="body-text small">Stage 1 Qualifier — All India Rank 24</p>
+        </div>
+        <div class="achieve-item">
+          <p class="achieve-title">NIT Hamirpur Open Exhibition</p>
+          <p class="body-text small">1st Runner-Up — SLAM Mantis Bot</p>
+        </div>
+        <div class="achieve-item">
+          <p class="achieve-title">Social Winter of Code</p>
+          <p class="body-text small">Selected Contributor</p>
+        </div>
+        <div class="achieve-item">
+          <p class="achieve-title">India Space Lab</p>
+          <p class="body-text small">Winter Training Entrance — Qualified</p>
+        </div>
+      </div>
+
+      <div class="cert-row">
+        <p class="eyebrow" style="margin-top: 48px;">Certifications</p>
+        <ul class="cert-list">
+          <li>Accenture Nordics Technology Consulting Job Simulation — Forage</li>
+          <li>Robotics workshops &amp; technical training programs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span></span><i></i><span></span></div>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="eyebrow">07 — Contact</p>
+      <h2 class="section-title">Let's talk.</h2>
+      <p class="body-text">
+        I'm actively looking for Software Engineering opportunities. If you think there's a fit, I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:yashitaaarya23@gmail.com" class="btn btn-primary">yashitaaarya23@gmail.com</a>
+      </div>
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/yashitaaarya/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/YashitaaArya" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://leetcode.com/u/yashitaaarya23/" target="_blank" rel="noopener">LeetCode</a>
+        <a href="https://codeforces.com/profile/yashitaaarya" target="_blank" rel="noopener">Codeforces</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-mark">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="#C9A7EB"/>
+      </svg>
+      © 2026 Yashitaa Arya
+    </p>
+    <p>Designed &amp; built by Yashitaa Arya · <a href="#top">Back to top ↑</a></p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
